@@ -1,1 +1,1 @@
-export(ddisclap, DiscreteLaplace)
+export(ddisclap, rdisclap, pdisclap, DiscreteLaplace)

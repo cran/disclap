@@ -1,10 +1,10 @@
-\name{DiscreteLaplace}
+\name{Discrete Laplace exponential family}
 \alias{DiscreteLaplace}
 \title{
-Discrete Laplace Family
+Discrete Laplace exponential family
 }
 \description{
-Discrete Laplace Family for models such as a generalized linear model.
+Discrete Laplace exponential family for models such as a generalized linear model.
 }
 \usage{
 DiscreteLaplace()
@@ -27,7 +27,12 @@ Mikkel Meyer Andersen <mikl@math.aau.dk> and Poul Svante Eriksen
 \code{\link{poisson}}
 }
 \examples{
-fit <- glm(rpois(10, 1) ~ 1, family = DiscreteLaplace())
+xs <- abs(rdisclap(100, 0.1))
+fit <- glm(xs ~ 1, family = DiscreteLaplace())
 summary(fit)
+theta <- as.numeric(coef(fit)[1])
+mu <- DiscreteLaplace()$linkinv(theta)
+p <- (sqrt(1 + mu^2) - 1) / mu
+p
 }
 
