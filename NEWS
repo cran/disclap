@@ -1,0 +1,2 @@
+Changes in version 1.2
+  * Null deviance corrected for d != 0

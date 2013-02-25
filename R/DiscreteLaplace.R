@@ -73,7 +73,8 @@ function() {
 
     if (sum(d.not.zero) > 0) {
       d.loglikeh <- d[d.not.zero]
-      ret.val[d.not.zero] <- - 2 * loglikeh(mu[d.not.zero], d.loglikeh)
+      #ret.val[d.not.zero] <- - 2 * loglikeh(mu[d.not.zero], d.loglikeh)
+      ret.val[d.not.zero] <- 2 * (loglikeh(d.loglikeh, d.loglikeh) - loglikeh(mu, d.loglikeh))
     }
     
     return(list(ret.val = ret.val, mu = mu))
