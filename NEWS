@@ -1,2 +1,8 @@
+Changes in version 1.4
+  * Added possibility to use parameter p = 0
+
+Changes in version 1.3
+  * Null deviance corrected (again, sorry) for d != 0
+  
 Changes in version 1.2
   * Null deviance corrected for d != 0

@@ -3,7 +3,7 @@
 \alias{pdisclap}
 \alias{rdisclap}
 \title{
-Probability mass function, distribution function, and random generation for the discrete Laplace distribution with parameter \eqn{0 < p < 1}.
+Probability mass function, distribution function, and random generation for the discrete Laplace distribution with parameter \eqn{0 <= p < 1}.
 }
 \description{
 Calculates the mass of observations from the discrete Laplace distribution.
@@ -15,7 +15,7 @@ rdisclap(n, p)
 }
 \arguments{
   \item{x}{vector of observations}
-  \item{p}{the parameter with 0 < p < 1}
+  \item{p}{the parameter with 0 <= p < 1}
   \item{lower.tail}{logical; if TRUE (default), probabilities are P[X <= x], otherwise, P[X > x].}
   \item{n}{number of observations to generate}
 }
