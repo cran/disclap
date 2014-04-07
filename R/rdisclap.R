@@ -8,6 +8,8 @@ function(n,p){
         stop("length(p) != 1 and length(p) != n")
     res <- ceiling(log(runif(n)*(1+p)/2)/log(p)-1)
     res[p == 0] <- 0
-    sample(c(-1,1),n,replace=TRUE)*res
+    ans <- sample(c(-1,1),n,replace=TRUE)*res
+    ans <- as.integer(ans)
+    return(ans)
 }
 
