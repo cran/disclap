@@ -1,10 +1,11 @@
-fd79ad8c5c50f9aff3e2867ef8fee652 *DESCRIPTION
-fbbd47ce7a46f80459632c0938294533 *NAMESPACE
-aafe871e504a0ce7355dc76dcfe9d9b6 *NEWS
-53d79c91a1a70699cffe76ff19aa9553 *R/DiscreteLaplace.R
+848f8644a3b9446b1937ae75a2d7df2c *DESCRIPTION
+71106b87c9dc1af77e9b748a157389ec *NAMESPACE
+1922ebb59cf65fa64ae7b4f8ee70da13 *NEWS
+554f981a55d5da832cb118c0918f903e *R/DiscreteLaplace.R
 2e3ace893f075d049b1c92e4b612d4b1 *R/ddisclap.R
 b819546e1dfc5a75997784d44a007d2b *R/pdisclap.R
 0c2dbada05e83bba355f34cd20fcba4e *R/rdisclap.R
+c39796e5a8a39614e61950777f488f39 *README.md
 09e56ba29bcd6a1cc8c2e4ca8fb5e6ce *man/DiscreteLaplace.Rd
 37aa94ca76117c3f61530496ea25d9bf *man/ddisclap.Rd
 dd09570aba99545ae50abf8d61e50b4a *man/disclap-package.Rd

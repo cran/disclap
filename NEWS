@@ -1,3 +1,6 @@
+Changes in version 1.5.1
+  * Fix bugs: validmu function (ensure it returns TRUE or FALSE), imports
+  
 Changes in version 1.5
   * rdisclap returns integer vector
   

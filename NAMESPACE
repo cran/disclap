@@ -1,1 +1,2 @@
 export(ddisclap, rdisclap, pdisclap, DiscreteLaplace)
+importFrom("stats", "runif")

@@ -29,7 +29,7 @@ function() {
   linktemp <- stats$name
 
   variance <- function(mu) mu * sqrt(1 + mu^2)
-  validmu <- function(mu) return(mu > 0 & !is.infinite(mu))
+  validmu <- function(mu) return(all(mu > 0 & !is.infinite(mu)))
 
   loglikeh <- function(mu, d) {
     p <- (sqrt(1 + mu^2) - 1) / mu
